@@ -1,0 +1,270 @@
+<!--
+	此示例下载自 https://echarts.apache.org/examples/zh/editor.html?c=scatter-single-axis&code=MYewdgzgLgBAJgQygmBeGBtAUDGBvAcgCMAnBMOAgLhgMFdEwJyCCAaW0AVzChIE9rbAtHKBftRa0ADiRBx2wKPwKBj5UBFfqIISAlsACm_AGwB2AHQBGAL7MshUuUo0CASQByAFQDyMAJquAqqo5deeWFVCSkZOTtlEJJNHRoAFmNDAAZzS2IyCnlADStAVnM_EE5uPjtg1jVJaVl5KPKNbX4AVmTDAA40q0zbWkAh50BJo0AqF0AIf4BhEAAbEBIAay0eQEh_gqLA0pE6yvCalXXY_kTDAGYOjJt5AGl7M9clgJLaQHhDQHJNQEolaLDqyO3xGIaaAE4_iljtYsnZGDdikE1t93hFaLVvrt_q0gRZOqc7HkIStBNCKrCttEkTBGoCjmiTqDaAcRgBRbF3AiAS_S8aEqnDFF8KsTjMkWqkKSDugRABTmgHvzQDr0QyoW92YSdr8YPEAEyGeLArryQCNQYBT90AymbS1ayzafImK3SAgXpIXyQC4coBMoMADopDADKWjEAAspghFuV_JC7IBVm1ZGw-8K59TiMFa8RMGoxtHFUr9hVuMvWBNNCqjpLV8apBH6A0NuONYc5ZqjByM6sFmrsTjcnh8JYIZRhcqziMV-yt6ILgBG8wCdNoB4HUAUY5DABC7CgUC0JAgMEnWgQJF9bFTAdLGc74creySunzwsAhsqAf81Ha32_jdxXs_wAajrfXaFiU8tGde2Sa9_eaLnyWfBMCAAcXUEhxmAdhxjkd80yNHcfzvbso30QEzDrYCAFl1GgdQwB0OCtwIQAHmxDTNfxQ_hWkaJ9-2FCVAEt5QA6zSvcjbwRblFQOA440wgtAFFswB75SGLCAEERnXAh_RxAhAAKlQB_o0eMsOU4yN-GMeJaL7SlhQACUKEgAHNxgQCAIFbQA4_3YpC1J-KNlVaflj3kQAY7UswBT00ABui2JU-UqJoYxdGc_jhUcMSACUXVbYM_K7LiHOCujdPkQBt60ACCNAGc9XzEPLOziWVeJLRcuxAEZzQAICyGEhgAqqSZM_Gy8ojeyNKK5KbTsQBwLUAV_SJVGUyYkgOrN1k2LctU5qCq09qXwILVAH9IwAFbRyjtbMmxVjGVYrQvkQBRtIlR1AG28oZaWgLQtBgAAZBB2Dgedho_eRrLiyiEv4RyQqAgtAHwzQAMHVdZxIoAEW8F1nAe-Dt1Wpr9xoZVkhRHSOtoHrkw3R6g0aibYZgQrtJK2hhNEiSIeIxTlPG_y3sCpyZuAgAxLQuB4JcVxnPgiNk57Kfi9SacRgmCBpelOcZFkXuQ6mYE2owkdmiqqpq8rSdkr9Q2xv9pbauXgIW5bRfTaGNYC3Hkm2r7hUu-wADUnBAmBwucbwIpF9HIYIQAG03my8edevnTdVHWC2F1txd9yX_eMIK6YLScQCIIh1CXSQAHcwCsrGqcjmiY-FIH1CmIZACv4wBTTRVxkxqNrOWrhv5aOVQWPBdS6hkAYnVAHV_R1y_kSubzWnH4j5XP5HzwvS-7zGJfynsh6Dy3yGAAAXgBbLQhkdQBuUIn2he-_GHNYOWm5_kMCADcmeAD0eCGQAqv0AVotABg9beCF39Xq-JQfPvo-Qm5bjuu5ipnXmNclSz0FmJEgy9yDqCGIAfjTADZzoAHh1n5PFeOHaeUZP7DzsNbBA4wmZQHwiAIYgA5ZUAGTygBKTUAC6aKCXhT3WpgsBO07DXTAEvVe68t6APoTjQ-X8Up2BGB6cgWhxhDEAJmZgAJTUAPyKz9X4UQjiAlU_DkYEFHiQYuZduHoIYfwA4fwVGzXUZouRQC_YgL4dg2gzgQDLxgPTKYcAhjOHps_bmVdgHEmrPjZhtBf5t07qYnhmssHHxwXgghRDSGUJoa2VBwSTahMFjYuxDiSBOJcW4sxiivH6B8RbeQECoFgBgQg5BcS6E6IHryKxBBWHsLXpvIJVSD7NFqWfC-V9b6P2aR48xXij6CxAjIYAMDAAnyoAByzaFoL6Tk7iddakpPsY45xriM4JKlso2pgAkRXuEMCK3gPD2GfmrBRGC9gokSILPIQwABSt0eBwAmOME52Tzn_l0IYBuviCDnmdCMVcEBTJgFeRs_2rQURR0Fn80YgLgWgpaSbGpfxBbt0ADhagBnTUAHqeK0-77xNtWQwjRvkFLsJvIYl0xKOBGK4LCtJel4uNlLC0hgUU_N2fsw5xzcV7yZf7eIlyMKktfLkO5DynnjBeTyt-nieyxl0IBb-dhbkgBAMAHg51pVnN0f-WirQhVKpFWKuAjznkItme8kknySWGoIDc-5JqJVSoNghC1OqlRGBtQI2gKq1UasIm7YipyOLuviJ6xogsylDEiuJRw3KXUPEqW6gevE2XCoIL69VmqE1tjeaGwVgt3LeSGAABXnAAMy0LIGA-dVwLC1SGnGvJYx_FrOmkOOaw7Js1hCvi6aYUAoXPCht_ce2QoNd6u1oqHWmsleaxl79FSNGtYLIRq5Jizgus4dQ4wiDsECDmwAj0F5t4YCCNPzLKAFztQATcGiQQDwIgojxj4S0FksFIDdBJAOBO1RA64XkHnbyxdUZjBkh_bNDtgbZJdoXbKkDyReKFUFhyg5RzAMyv6T2AtPzIPSRGmLE9mso4tHPemotXlS0VqrbAWtvB0PapxnklIabbWADdwp0I78VSwOLGZIpHbXouxZxvlFijDEsFrh-q8gYNAbg9RSFgtGzuC8L4HNwbR0EtTfxydWFDBiUMCMdZiKpabUMcBf-Qxf4Mtk5hqsy7amlyGEDewrgIrWYw3Mqs-hPlhNoPfB-QwOlsKvu5hjB8DifKPD83T-nDM5vcbB2zrVza2v84F9Q59gv1pzfIxtRG_iy3A-Zzulnm6hbywS-zvmCCOec658rGnuPedqeSyl1LaX0u0d2zTKIvWqJiwZoz3WTPa0FvtI6J0wa0lpFdMS3gga0jc0NxLnn3ptT67NWrLmls5cIwS5r1XWtUppXShrXH_Y8V64LLb9WusrctdWHzY2DrHVpFNmblL5uLbfcZ_2hVAQbeAmloLl9stQYrnt7jEXakWas3dmzq2aAHCq4LAbcXwdPUh5HfQZmCxo-Wwjy1mkUuTsmYF7wIwRjxox3YeJv2QGgZbYLWHZX4ceaJ38AWPy3BYXsa5oGBP2fup4rxPJgspHSNGMIgizqac7yx0o4wernsTbe84abs2vs7blwQBLhP3X_a-Sr1773NcLe13hjGtA9dC5xsqfQnrjeTfVx9ub5ufvDYu_ET52nVE3Yt1Jye9PclPZ-YAOzM-iAD740tEUxJAzEtM99XiUc_P92dkTxJdC6EDszkrcPdtJ8VPoTaMO8-s4L8HovJfqss8uun4DGlCpJHaNz2lfOIoC_iwrj-2e2jJLb_TfnguwuJN7y39NPP2-d51zbkfmyeOHEBwWQA97GACGUwA73pS5iHhcgV1ChEEKIQkFbO5_gr44YXQvvZqT8Hx34fFXNlj8FmvzfQjt-EN35dffh_8L17kzQJyWiS_XPZ0fPHXXLRrSOJvPvVPEuJzbbP_JLQKZUaOarG_IfLvQvTBJ_VvXnW_afS3d2WfB_flHA9NNPE_EgkBArS5QWI7drU7SgyAkBJyJINtW1dAu_TAyvTBeIXiRocfW1WvRAxHaWBGJIK_YCCgivT3EBfQZUVUJfYUTgggwPa3bvHsMg21F_LfXCD_MAPfdgA_GcX_Jg87BnS_L9a7OAurAPfDHuDQqMLPHPH5cbE3F3M3b7e_Zg4kYlM9SQgsYQswjPRUGiWMRoAI4UaQ8AxwvQXvNAgfDAmfWIhILQydFQ7w8wzPAwIlQWCPaPEtWPePRPHg_gYvFw9NIImQ-7d1MIolCNLAAAXQAG4sAsBQBIBYAZJ1AtBFx0AMBDBBiCIU4YA3QoAAAKRAZAQwKBMQcY9QOcOxVAAAPhgAWK0GXkMHqgAEptiWi2iOjoAYBL58IEAxhJgSA0BaAABiYAOAIgeIe4ggVow42AEAKAD0ecc4qYPozAAga48tctYAVoOASgcoAE8tBAIE4AVQa4ogO6ZIStWEhAZUOAZUQEggfYrActTgWQAuAwyMF0YACJcYyMbY_AHANY8tGAUk-yGAAAHnQHhmSHJJIC0CgH3QJPslaNwDZI5JIAMOZJgAAGoaTIwYAABaU2FkmAAAeiVFaNMDaJxLYUIXABgCMnZO-JIEnB4DGA_HGJ2IpNwHUGpMNPwzQFQHQFzQIFZPZM5OOI9FOO1J5OOPACOPeM-IXCuO6N6MMHLR3TnBIENLQFWOABgAAEIrTSxtjXTXi1iKAtAAAPK4z0-cCAQwfCO6JM1wctc0j8WMykvkh0tMkgbUiADALM5MmAAAUhgFLPLMMHwTACMg-P2KVPaPdNgAgGJM3RICBiQBQHQCmIQBmIQDmPWKWNWPGLwEpNPjwXYC0BoAwEJOJPwXmMWMMDJNYEnK2Pw0aIsFwDAAQFXhoF3KFEPJgF5TPM3N5UvMjBvI2K3PskvMnJdCgB4HwRoDwDdIuJoE1KgG1N1P1NuA3KfKNKVNMF2NaKwBADEDVIMPQFnNwEISgC_ONNwBgDnCTKgFWEskADDNQAcrlABBlUAHe5QAHgtAAwJUAGA9IYZQX0Sk3AfBctXCtgAhecAgSktIFC1VGCdQMQb8xirCmIIyTUkgOwSclgIS8tKYKBPsmgMQVcE8vo1YgAAyEtwHpOgEkBbOWIABI8BFKyBl4MzjzV5TB6TZTtLwAjJlj6TSBZTliNKYASKaADKjLlLDARznzYQLKHKnLMLMKhBAA27TcsMqUpMq8sHMMHnPGEXIwGMEaL8pIEcucoopoAAFL3KIqMzvLIwlTAr1LcBuKYAkyxIkzcJBLAqPyxAlzaBYrFypLAqzK6qCAKKhhABhRQYsCuXnwhoGSEvNwCgSTKR2aEGoTKDNiv_AGqEoQAqogGukfXGCqsCpgBksgSQCDJoBVLxPVPGIaq0HJOQtWpNLNIOoZKZL5DtP5IMIIAyoIBFJgAOtdJOuLIFNoHuseqwiQA9EMEkE4DgHGKFNFP2oXIuilOZPJIAColRCyTqCrMKEaSqeByrKqMKUKeBaq7BeytAjIpgOYhKWq7BAABI0AD0dEK2UwABnVAAuZSaswpHJoF9IgC4svIgHnB6IgGXOOqPJPNatqCEpqtap7M2o4vGoZpgGFr7IHOQHGogB4GXgP3GBdHUAAC86qdqEKaSjrnK3qDDvqPi_qbBbFxjobTZHrGhmjcBZT5TGhAAGJWVEaEABC3QAeLTAAuc0eBHCEpKqYoQCWu_Ilq9BTm2rwTZpgCRsaKwFMGaKAA
+	⚠ 请注意，该图表不是 Apache ECharts 官方示例，而是由用户代码生成的。请注意鉴别其内容。
+-->
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+  <div id="container" style="height: 100%"></div>
+
+  
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  
+  <!-- Uncomment this line if you want to dataTool extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/extension/dataTool.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use gl extension
+  <script type="text/javascript" src="https://echarts.apache.org/zh/js/vendors/echarts-gl/dist/echarts-gl.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-stat extension
+  <script type="text/javascript" src="https://echarts.apache.org/zh/js/vendors/echarts-stat/dist/ecStat.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-graph-modularity extension
+  <script type="text/javascript" src="https://echarts.apache.org/zh/js/vendors/echarts-graph-modularity/dist/echarts-graph-modularity.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use map
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+  -->
+  <!-- Uncomment these two lines if you want to use bmap extension
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/extension/bmap.min.js"></script>
+  -->
+
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    var app = {};
+    
+    var option;
+
+    const data = [
+  {'brand': '酵色', 'country': '中国', 'product': '口红', 'price': 67.1},
+{'brand': 'INTO YOU', 'country': '中国', 'product': '口红', 'price': 41.0},
+{'brand': '橘朵', 'country': '中国', 'product': '口红', 'price': 50.8},
+{'brand': '珂拉琪（Colorkey）', 'country': '中国', 'product': '口红', 'price': 41.3},
+{'brand': 'KIKO', 'country': '意大利', 'product': '口红', 'price': 99.0},
+{'brand': '酵色', 'country': '中国', 'product': '口红', 'price': 98.0},
+{'brand': '橘朵', 'country': '中国', 'product': '口红', 'price': 59.3},
+{'brand': '3CE', 'country': '韩国', 'product': '口红', 'price': 100.0},
+{'brand': '木柯诗', 'country': '中国', 'product': '口红', 'price': 42.4},
+{'brand': '花知晓', 'country': '中国', 'product': '口红', 'price': 69.0},
+{'brand': '丝芙兰（Sephora）', 'country': '法国', 'product': '口红', 'price': 84.1},
+{'brand': '木柯诗', 'country': '中国', 'product': '口红', 'price': 59.4},
+{'brand': '珂拉琪', 'country': '中国', 'product': '口红', 'price': 37.4},
+{'brand': 'INTO YOU', 'country': '中国', 'product': '口红', 'price': 41.0},
+{'brand': '黄油小熊（Butters Bear）', 'country': '中国', 'product': '口红', 'price': 41.6},
+{'brand': '卡姿兰', 'country': '中国', 'product': '口红', 'price': 99.0},
+{'brand': '橘朵', 'country': '中国', 'product': '口红', 'price': 59.3},
+{'brand': 'Girlcult', 'country': '中国', 'product': '口红', 'price': 79.1},
+{'brand': 'Mistine', 'country': '泰国', 'product': '口红', 'price': 85.0},
+{'brand': '诗佩妮', 'country': '中国', 'product': '口红', 'price': 33.1},
+{'brand': '魅可（MAC）', 'country': '加拿大', 'product': '口红', 'price': 145.0},
+{'brand': 'Hourglass', 'country': '美国', 'product': '口红', 'price': 280.0},
+{'brand': '完美日记', 'country': '中国', 'product': '口红', 'price': 160.0},
+{'brand': 'NARS', 'country': '法国', 'product': '口红', 'price': 260.0},
+{'brand': '毛戈平', 'country': '中国', 'product': '口红', 'price': 249.0},
+{'brand': '朱栈（rc朱栈）', 'country': '中国', 'product': '口红', 'price': 149.0},
+{'brand': '娇韵诗（Clarins）', 'country': '法国', 'product': '口红', 'price': 245.0},
+{'brand': '花西子', 'country': '中国', 'product': '口红', 'price': 129.0},
+{'brand': '雅诗兰黛（Estee Lauder）', 'country': '美国', 'product': '口红', 'price': 280.0},
+{'brand': '星尘（STARDUST）', 'country': '中国', 'product': '口红', 'price': 208.0},
+{'brand': '娇韵诗', 'country': '法国', 'product': '口红', 'price': 245.0},
+{'brand': '魅可（MAC）', 'country': '加拿大', 'product': '口红', 'price': 180.0},
+{'brand': 'Fenty Beauty', 'country': '美国', 'product': '口红', 'price': 188.0},
+{'brand': '3CE', 'country': '韩国', 'product': '口红', 'price': 127.0},
+{'brand': '朱栈（rc朱栈）', 'country': '中国', 'product': '口红', 'price': 149.0},
+{'brand': '花西子', 'country': '中国', 'product': '口红', 'price': 209.0},
+{'brand': 'LIVING NATURE', 'country': '新西兰', 'product': '口红', 'price': 202.0},
+{'brand': '3CE', 'country': '韩国', 'product': '口红', 'price': 116.0},
+{'brand': 'Bobbi Brown', 'country': '美国', 'product': '口红', 'price': 185.0},
+{'brand': 'Dior（迪奥）', 'country': '法国', 'product': '口红', 'price': 295.2},
+{'brand': 'YSL（圣罗兰）', 'country': '法国', 'product': '口红', 'price': 400.0},
+{'brand': 'Dior（迪奥）', 'country': '法国', 'product': '口红', 'price': 400.0},
+{'brand': 'Lancôme（兰蔻）', 'country': '法国', 'product': '口红', 'price': 380.0},
+{'brand': 'Givenchy（纪梵希）', 'country': '法国', 'product': '口红', 'price': 400.0},
+{'brand': 'YSL（圣罗兰）', 'country': '法国', 'product': '口红', 'price': 400.0},
+{'brand': 'Armani（阿玛尼）', 'country': '意大利', 'product': '口红', 'price': 400.0},
+{'brand': 'Valentino（华伦天奴）', 'country': '意大利', 'product': '口红', 'price': 400.0},
+{'brand': 'Lancôme（兰蔻）', 'country': '法国', 'product': '口红', 'price': 380.0},
+{'brand': 'Chanel（香奈儿）', 'country': '法国', 'product': '口红', 'price': 420.0},
+{'brand': 'Dior（迪奥）', 'country': '法国', 'product': '口红', 'price': 390.0},
+{'brand': 'Dior（迪奥）', 'country': '法国', 'product': '口红', 'price': 380.0},
+{'brand': 'Tom Ford（TF）', 'country': '美国', 'product': '口红', 'price': 375.0},
+{'brand': 'YSL（圣罗兰）', 'country': '法国', 'product': '口红', 'price': 400.0},
+{'brand': 'Valentino（华伦天奴）', 'country': '意大利', 'product': '口红', 'price': 400.0},
+{'brand': 'Tom Ford（TF）', 'country': '美国', 'product': '口红', 'price': 375.0},
+{'brand': 'Armani（阿玛尼）', 'country': '意大利', 'product': '口红', 'price': 410.0},
+{'brand': 'Lancôme（兰蔻）', 'country': '法国', 'product': '口红', 'price': 350.0},
+{'brand': 'Givenchy（纪梵希）', 'country': '法国', 'product': '口红', 'price': 380.0},
+{'brand': 'Gucci（古驰）', 'country': '意大利', 'product': '口红', 'price': 395.0},
+{'brand': 'Tom Ford（TF）', 'country': '美国', 'product': '口红', 'price': 420.0},
+{'brand': '儒意（RUYI）', 'country': '中国', 'product': '口红', 'price': 48.41},
+{'brand': '橘朵（Judydoll）', 'country': '中国', 'product': '口红', 'price': 56.2},
+{'brand': '卡姿兰（Carslan）', 'country': '中国', 'product': '口红', 'price': 88.11},
+{'brand': '卡姿兰（Carslan）', 'country': '中国', 'product': '口红', 'price': 10.9},
+{'brand': '罗娜女神', 'country': '中国', 'product': '口红', 'price': 37.52},
+{'brand': '兰蔻（LANCOME）', 'country': '法国', 'product': '口红', 'price': 69.9},
+{'brand': '儒意（RUYI）', 'country': '中国', 'product': '口红', 'price': 48.41},
+{'brand': '橘朵（Judydoll）', 'country': '中国', 'product': '口红', 'price': 44.63},
+{'brand': 'Joocyee', 'country': '中国', 'product': '口红', 'price': 55.81},
+{'brand': '橘朵（Judydoll）', 'country': '中国', 'product': '口红', 'price': 56.2},
+{'brand': '橘朵（Judydoll）', 'country': '中国', 'product': '口红', 'price': 47.2},
+{'brand': 'Joocyee', 'country': '中国', 'product': '口红', 'price': 47.25},
+{'brand': '阿玛尼（ARMANI）', 'country': '意大利', 'product': '口红', 'price': 43.9},
+{'brand': 'Joocyee', 'country': '中国', 'product': '口红', 'price': 48.41},
+{'brand': '完美日记（Perfect Diary）', 'country': '中国', 'product': '口红', 'price': 104.94},
+{'brand': '3CE', 'country': '韩国', 'product': '口红', 'price': 88.1},
+{'brand': '卡姿兰（Carslan）', 'country': '中国', 'product': '口红', 'price': 88.11},
+{'brand': '橘朵（Judydoll）', 'country': '中国', 'product': '口红', 'price': 56.2},
+{'brand': 'Charlotte Tilbury', 'country': '英国', 'product': '口红', 'price': 39.5},
+{'brand': '美宝莲（Maybelline）', 'country': '美国', 'product': '口红', 'price': 61.31},
+{'brand': '卡姿兰（Carslan）', 'country': '中国', 'product': '口红', 'price': 19.31},
+{'brand': '3CE', 'country': '韩国', 'product': '口红', 'price': 103.24},
+{'brand': '儒意（RUYI）', 'country': '中国', 'product': '口红', 'price': 48.41},
+{'brand': '3CE', 'country': '韩国', 'product': '口红', 'price': 110.5},
+{'brand': '完美日记（Perfect Diary）', 'country': '中国', 'product': '口红', 'price': 75.09},
+{'brand': '蝶芙兰', 'country': '中国', 'product': '口红', 'price': 34.05},
+{'brand': '罗娜女神', 'country': '中国', 'product': '口红', 'price': 37.52},
+{'brand': '3CE', 'country': '韩国', 'product': '口红', 'price': 88.1},
+{'brand': 'INTO YOU', 'country': '中国', 'product': '口红', 'price': 33.95},
+{'brand': 'M.A.C', 'country': '美国', 'product': '口红', 'price': 120.0},
+{'brand': '圣罗兰（YSL）', 'country': '法国', 'product': '口红', 'price': 356.0},
+{'brand': '迪奥（DIOR）', 'country': '法国', 'product': '口红', 'price': 376.0},
+{'brand': '纪梵希（Givenchy）', 'country': '法国', 'product': '口红', 'price': 336.6},
+{'brand': 'M.A.C', 'country': '美国', 'product': '口红', 'price': 149.0},
+{'brand': '纪梵希（Givenchy）', 'country': '法国', 'product': '口红', 'price': 197.01},
+{'brand': '圣罗兰（YSL）', 'country': '法国', 'product': '口红', 'price': 356.0},
+{'brand': '迪奥（DIOR）', 'country': '法国', 'product': '口红', 'price': 376.0},
+{'brand': '兰蔻（LANCOME）', 'country': '法国', 'product': '口红', 'price': 338.2},
+{'brand': 'M.A.C', 'country': '美国', 'product': '口红', 'price': 149.0},
+{'brand': '雅诗兰黛（ESTEE LAUDER）', 'country': '美国', 'product': '口红', 'price': 249.2},
+{'brand': '迪奥（DIOR）', 'country': '法国', 'product': '口红', 'price': 376.0},
+{'brand': '兰蔻（LANCOME）', 'country': '法国', 'product': '口红', 'price': 338.2},
+{'brand': '迪奥（DIOR）', 'country': '法国', 'product': '口红', 'price': 376.0},
+{'brand': '雅诗兰黛（ESTEE LAUDER）', 'country': '美国', 'product': '口红', 'price': 249.2},
+{'brand': '纪梵希（Givenchy）', 'country': '法国', 'product': '口红', 'price': 336.0},
+{'brand': '圣罗兰（YSL）', 'country': '法国', 'product': '口红', 'price': 356.0},
+{'brand': 'M.A.C', 'country': '美国', 'product': '口红', 'price': 170.0},
+{'brand': 'M.A.C', 'country': '美国', 'product': '口红', 'price': 149.0},
+{'brand': '古驰（GUCCI）', 'country': '意大利', 'product': '口红', 'price': 194.9},
+{'brand': '圣罗兰（YSL）', 'country': '法国', 'product': '口红', 'price': 198.0},
+{'brand': 'TOM FORD', 'country': '美国', 'product': '口红', 'price': 333.75},
+{'brand': '香奈儿（Chanel）', 'country': '法国', 'product': '口红', 'price': 415.8},
+{'brand': '雅诗兰黛（ESTEE LAUDER）', 'country': '美国', 'product': '口红', 'price': 249.2},
+{'brand': '雅诗兰黛（ESTEE LAUDER）', 'country': '美国', 'product': '口红', 'price': 277.2},
+{'brand': '雅诗兰黛（ESTEE LAUDER）', 'country': '美国', 'product': '口红', 'price': 346.5},
+{'brand': '迪奥（DIOR）', 'country': '法国', 'product': '口红', 'price': 376.0},
+{'brand': '普拉达（PRADA）', 'country': '意大利', 'product': '口红', 'price': 356.0},
+{'brand': '迪奥（DIOR）', 'country': '法国', 'product': '口红', 'price': 662.0},
+{'brand': '圣罗兰（YSL）', 'country': '法国', 'product': '口红', 'price': 712.0},
+{'brand': '圣罗兰（YSL）', 'country': '法国', 'product': '口红', 'price': 712.0},
+{'brand': '圣罗兰（YSL）', 'country': '法国', 'product': '口红', 'price': 1241.8},
+{'brand': 'TOM FORD', 'country': '美国', 'product': '口红', 'price': 462.8},
+{'brand': 'TOM FORD', 'country': '美国', 'product': '口红', 'price': 462.8},
+{'brand': 'TOM FORD', 'country': '美国', 'product': '口红', 'price': 434.32},
+{'brand': '路铂廷（Christian Louboutin）', 'country': '法国', 'product': '口红', 'price': 805.65},
+{'brand': 'TOM FORD', 'country': '美国', 'product': '口红', 'price': 462.8},
+{'brand': '路铂廷（Christian Louboutin）', 'country': '法国', 'product': '口红', 'price': 805.65},
+{'brand': '圣罗兰（YSL）', 'country': '法国', 'product': '口红', 'price': 1241.8},
+{'brand': '迪奥（DIOR）', 'country': '法国', 'product': '口红', 'price': 1216.0},
+{'brand': 'TOM FORD', 'country': '美国', 'product': '口红', 'price': 462.8},
+{'brand': 'TOM FORD', 'country': '美国', 'product': '口红', 'price': 462.8},
+{'brand': '迪奥（DIOR）', 'country': '法国', 'product': '口红', 'price': 978.4},
+{'brand': '兰蔻（LANCOME）', 'country': '法国', 'product': '口红', 'price': 801.4},
+{'brand': 'TOM FORD', 'country': '美国', 'product': '口红', 'price': 443.58},
+{'brand': '圣罗兰（YSL）', 'country': '法国', 'product': '口红', 'price': 1081.5},
+{'brand': '迪奥（DIOR）', 'country': '法国', 'product': '口红', 'price': 722.2},
+{'brand': 'TOM FORD', 'country': '美国', 'product': '口红', 'price': 462.8},
+{'brand': '路铂廷（Christian Louboutin）', 'country': '法国', 'product': '口红', 'price': 1651.3},
+{'brand': '迪奥（DIOR）', 'country': '法国', 'product': '口红', 'price': 662.0},
+{'brand': '雅诗兰黛（ESTEE LAUDER）', 'country': '美国', 'product': '口红', 'price': 529.55},
+{'brand': '圣罗兰（YSL）', 'country': '法国', 'product': '口红', 'price': 854.55},
+{'brand': '迪奥（DIOR）', 'country': '法国', 'product': '口红', 'price': 662.0},
+{'brand': 'TOM FORD', 'country': '美国', 'product': '口红', 'price': 462.8},
+{'brand': 'TOM FORD', 'country': '美国', 'product': '口红', 'price': 667.5},
+{'brand': '普拉达（PRADA）', 'country': '意大利', 'product': '口红', 'price': 712.0},
+{'brand': '圣罗兰（YSL）', 'country': '法国', 'product': '口红', 'price': 854.55}
+];
+
+const countries = [...new Set(data.map(item => item.country))];
+
+const chinaColor = '#cdb4db';
+const otherColors = ['#ffc8dd', '#ffafcc', '#bde0fe', '#a2d2ff'];
+
+function priceScale(price) {
+  if (price <= 200) return price;
+  return 200 + (price - 200) / 4;
+}
+
+function getColorByCountry(country) {
+  if (country === '中国') return chinaColor;
+  const others = countries.filter(c => c !== '中国');
+  const index = others.indexOf(country);
+  return otherColors[index % otherColors.length];
+}
+
+const scatterData = data.map(item => ({
+  value: [priceScale(item.price), item.country],
+  name: item.brand,
+  product: item.product,
+  price: item.price,
+  itemStyle: { color: getColorByCountry(item.country) }
+}));
+
+option = {
+  title: {
+    text: '中国美妆产品价格分布（口红）',
+    left: 'center'
+  },
+  tooltip: {
+    trigger: 'item',
+    formatter: params => `
+      <strong>${params.name}</strong><br/>
+      产品: ${params.data.product}<br/>
+      国家: ${params.data.value[1]}<br/>
+      价格: ¥${params.data.price}
+    `
+  },
+  xAxis: {
+    type: 'value',
+    name: '价格（元）',
+    min: 0,
+    max: 350,
+    interval: 50,
+    axisLabel: {
+      formatter: function (value) {
+        if (value <= 200) return '¥' + value;
+        return '¥' + Math.round(200 + (value - 200) * 4);
+      }
+    }
+  },
+  yAxis: {
+    type: 'category',
+    name: '所属国家/地区',
+    data: countries
+  },
+  series: [{
+    name: '口红',
+    type: 'scatter',
+    data: scatterData,
+    symbolSize: function () {
+      return Math.random() * 20 + 5;  // 5到25的随机大小
+    },
+    label: { show: false }
+  }]
+};
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>
